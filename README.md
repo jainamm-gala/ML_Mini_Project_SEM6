@@ -1,4 +1,4 @@
-```markdown
+
 # Loan Approval Prediction
 
 This project aims to predict loan approval status based on various applicant features using machine learning models. The goal is to develop a robust model that can assist financial institutions in making informed decisions regarding loan applications.
