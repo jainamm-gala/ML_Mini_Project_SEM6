@@ -52,15 +52,13 @@ The initial steps involved cleaning the data and preparing it for model training
 
 A correlation matrix was generated to visualize the relationships between numerical features.
 
-![Correlation Matrix](https://via.placeholder.com/600x400/CCCCCC/FFFFFF?text=Correlation+Matrix)
-*Replace with actual image link of correlation matrix plot*
+![Correlation Matrix](output_images/correlation_matrix.png)
 
 ### CIBIL Score Distribution by Loan Status
 
 A box plot was used to visualize the distribution of CIBIL scores for approved vs. rejected loans.
 
-![CIBIL Score Distribution](https://via.placeholder.com/600x400/CCCCCC/FFFFFF?text=CIBIL+Score+Distribution)
-*Replace with actual image link of CIBIL Score Distribution plot*
+![CIBIL Score Distribution](output_images/cibil_score_distribution_by_loan_status.png)
 
 ## Model Training
 
@@ -139,8 +137,7 @@ weighted avg       0.40      0.63      0.49       854
 
 ### Model Accuracy Comparison
 
-![Model Accuracy Comparison](https://via.placeholder.com/600x400/CCCCCC/FFFFFF?text=Model+Accuracy+Comparison)
-*Replace with actual image link of model accuracy comparison plot*
+![Model Accuracy Comparison](output_images/model_accuracy_comparison.png)
 
 The Decision Tree model achieved the highest accuracy of approximately 98%, outperforming Logistic Regression (79%) and SVM (63%). The SVM model's performance was notably poor, classifying almost all loans as approved.
 
@@ -148,8 +145,7 @@ The Decision Tree model achieved the highest accuracy of approximately 98%, outp
 
 Feature importance was calculated using the Decision Tree model to identify the most influential factors in loan approval.
 
-![Feature Importance](https://via.placeholder.com/600x400/CCCCCC/FFFFFF?text=Feature+Importance)
-*Replace with actual image link of feature importance plot*
+![Feature Importance](output_images/feature_importance.png)
 
 `cibil_score` was identified as the most important feature, followed by `loan_term`, `loan_amount`, and `income_annum`.
 
@@ -173,5 +169,7 @@ Based on the model, the loan is Approved.
 ## Interactive Predictor
 
 The notebook also includes an interactive widget-based predictor where you can adjust parameters like CIBIL score, loan term, loan amount, and annual income to see real-time loan approval predictions. This uses the Decision Tree model.
+
+![Interactive Predictor](output_images/predictive_indicator.png)
 
 *Note: The interactive widgets will not function directly in the static GitHub preview. You need to run the notebook in a Colab environment to interact with them.*
